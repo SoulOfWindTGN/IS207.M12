@@ -1,0 +1,45 @@
+p {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ul {
+    background-color: #f1f1f8;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    width:fit-content;
+}
+
+li a{
+    display: inline-block;
+    color: #4351ce;
+    text-align: left;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown-content a {
+    display: block;
+    margin-left: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+li a:hover, li img:hover {
+    background-color: lightgray;
+}
+
+form button {
+    float: left;
+}
+
+form input {
+    float: left;
+}

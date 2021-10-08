@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Đăng ký dự thưởng</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <h2 align="center">Phiếu đăng ký tham gia dự thưởng</h2>
+        <form>
+            <table align="center">
+                <colgroup>
+                    <col span="1" style="width: 25%;">
+                    <col span="1" style="width: 75%;">
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <td>Họ và tên</td>
+                        <td><input id="name" type="text" placeholder="Nguyễn Văn A"></td>
+                    </tr>
+                    <tr>
+                        <td>Địa chỉ</td>
+                        <td><input id="address" type="text" placeholder="abc, xyz, jqk" size="50"></td>
+                    </tr>
+                    <tr>
+                        <td>Điện thoại</td>
+                        <td><input id="phone" type="text" placeholder="09xxxxxxxx"></td>
+                    </tr>
+                    <tr>
+                        <td>Phái</td>
+                        <td style="color:black;">
+                            <input type="radio" id="male" value="male" name="gen">
+                            <label for="male">Nam</label>
+                            <input type="radio" id="female" value="female" name="gen">
+                            <label for="female">Nữ</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sản phẩm</td>
+                        <td>
+                            <select name="prod" id="prod">
+                                <option value="IP11">Iphone 11 Pro Max</option>
+                                <option value="SGN20">Samsung Galaxy Note 20</option>
+                                <option value="XRK30">Xiaomi Redmi K30</option>
+                                <option value="OA53">OPPO A53</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Số dự đoán</td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><input type="button" value="Đăng ký"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>

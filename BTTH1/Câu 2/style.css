@@ -1,0 +1,14 @@
+table {
+    background-image: url('images/bg.jpg');
+    border: 1px solid black;
+    width: 550px;
+}
+
+th {
+    border: 1px solid black;
+    height: 55px;
+}
+
+td {
+    border: 1px solid black;
+}

@@ -1,0 +1,36 @@
+table, td, tr {
+    border: 1px solid black;
+    border-collapse:collapse ;
+    height: 25px;
+    width: 650px;
+}
+
+td{
+    text-align: center;
+}
+
+.title {
+    background-color:blanchedalmond;
+    color: rgb(233, 116, 116);
+    font-weight: bold;
+}
+
+#TKW {
+    background-color: chartreuse;
+}
+
+#LTDT {
+    background-color: orange;
+}
+
+#HDH {
+    background-color: cornflowerblue;
+}
+
+#CSDL {
+    background-color: plum;
+}
+
+#TKCSDL {
+    background-color: lightskyblue;
+}

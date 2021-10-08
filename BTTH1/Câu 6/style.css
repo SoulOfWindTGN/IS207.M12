@@ -1,0 +1,16 @@
+body {
+    background-color: #FFEDCA;
+}
+
+table,td,tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    height: 300px;
+    width: 600px;
+}
+td {
+    color: rgb(9, 9, 241);
+}
