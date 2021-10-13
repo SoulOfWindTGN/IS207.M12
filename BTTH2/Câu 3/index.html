@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <script language="javascript" src="function.js"></script>
+    </head>
+    <body>
+        <form>
+            <table class="form">
+                <colgroup>
+                    <col span="1" style="width: 70%;">
+                    <col span="1" style="width: 30%;">
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <td><p id="date"></p></td>
+                        <script>
+                            date();
+                        </script>
+                        <td id="nv">Nhân viên: Nguyễn Văn A</td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2"><h3>THỰC ĐƠN</h3></td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <table>
+                                <tr class="title">
+                                    <td>Bàn</td>
+                                    <td>Món ăn</td>
+                                </tr>
+                                <tr class="menu">
+                                    <td>
+                                        <select id="ban">
+                                            <option selected disabled hidden>Chọn bàn</option>
+                                            <option>Bàn 1</option>
+                                            <option>Bàn 2</option>
+                                            <option>Bàn 3</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select id="menu" ondblclick="update()">
+                                            <option selected disabled hidden>Chọn món</option>
+                                            <option id="bunbo">Bún bò</option>
+                                            <option id="hutieu">Hủ tiếu</option>
+                                            <option id="banhcanh">Bánh canh</option>
+                                            <option id="phobo">Phở bò</option>
+                                            <option id="nuoi">Nuôi</option>
+                                            <option id="banhmy">Bánh mỳ thịt</option>
+                                            <option id="banhcuon">Bánh cuốn</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        <table id="information">
+            <tr class="title">
+                <td>Bàn 1</td>
+                <td>Bàn 2</td>
+                <td>Bàn 3</td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="result">
+                        <tr class="title_result">
+                            <td>Món</td>
+                            <td>SL</td>
+                            <td>Tiền</td>
+                            <td></td>
+                        </tr>
+                        <tr class="tot">
+                            <td>Tổng tiền</td>
+                            <td colspan="3" class="total">0 đ</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><button type="button" onclick="bill(0)">In hóa đơn</button></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="result">
+                        <tr class="title_result">
+                            <td>Món</td>
+                            <td>SL</td>
+                            <td>Tiền</td>
+                            <td></td>
+                        </tr>
+                        <tr class="tot">
+                            <td>Tổng tiền</td>
+                            <td colspan="3" class="total">0 đ</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><button type="button" onclick="bill(1)">In hóa đơn</button></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="result">
+                        <tr class="title_result">
+                            <td>Món</td>
+                            <td>SL</td>
+                            <td>Tiền</td>
+                            <td></td>
+                        </tr>
+                        <tr class="tot">
+                            <td>Tổng tiền</td>
+                            <td colspan="3" class="total">0 đ</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><button type="button" onclick="bill(2)">In hóa đơn</button></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

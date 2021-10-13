@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <script language="javascript" src="function.js"></script>
+    </head>
+
+    <body>
+        <form align='center'>
+            <p>THỰC ĐƠN</p>
+            <table>
+                <colgroup>
+                    <col span="1" style="width: 20%;">
+                    <col span="1" style="width: 30%;">
+                    <col span="1" style="width: 50%;">
+                </colgroup>
+                <tbody>
+                    <tr class="title">
+                        <td>Thức ăn</td>
+                        <td>Nước uống</td>
+                        <td>Thời điểm</td>
+                    </tr>
+                    <tr class="monan">
+                        <td>
+                            <select name="thucan" id="thucan" multiple>
+                                <option value="bunbo" id="bunbo">Bún bò</option>
+                                <option value="hutieu" id="hutieu">Hủ tiếu</option>
+                                <option value="banhcanh" id="banhcanh">Bánh canh</option>
+                                <option value="phobo" id="phobo">Phở bò</option>
+                                <option value="nuoi" id="nuoi">Nuôi</option>
+                                <option value="banhmi id="banhmi">Bánh mì thịt</option>
+                                <option value="banhcuon" id="banhcuon">Bánh cuốn</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="nuocuong" id="nuocuong" multiple>
+                                <option value="capheda" id=capheda>Cà phê đá</option>
+                                <option value="suada" id="suada">Cà phê sữa đá</option>
+                                <option value="chanhday" id="chanhday">Chanh dây</option>
+                                <option value="chanhmuoi" id="chanhmuoi">Chanh muối</option>
+                                <option value="ximuoi" id="ximuoi">Xí muội</option>
+                                <option value="suatuoi" id="suatuoi">Sữa tươi</option>
+                                <option value="camvat" id="camvat">Cam vắt</option>
+                            </select>
+                        </td>
+                        <td class="button">
+                           <input type="radio" name="buoi" value="banngay" id="banngay">
+                           <label for="banngay">Ban ngày</label><br>
+                           <input type="radio" name="buoi" value="bandem" id="bandem">
+                           <label for="bandem">Ban đêm</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><input class="submit" type="button" value="Tính tiền" onclick="tinhtien()"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+
+        <div id="result">
+        </div>
+    </body>
+</html>

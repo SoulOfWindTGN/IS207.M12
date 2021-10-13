@@ -1,0 +1,22 @@
+table, td, tr {
+    border: 2px solid blue;
+    border-collapse: collapse
+}
+
+table {
+    width: 500px;
+}
+#but {
+    border-radius: 20px;
+    border-color: cornflowerblue;
+}
+#heso {
+    width: 60px;
+    border-radius: 10px;
+}
+
+form{
+    background-color: orange;
+    border: 2px solid blue;
+    width: 500px;
+}

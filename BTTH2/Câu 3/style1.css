@@ -1,0 +1,22 @@
+div table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table td{
+    padding: 0 15px;
+}
+
+td.hoadon .title {
+    font-weight: bold;
+}
+td.hoadon table{
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 0px
+}
+
+td.hoadon .tongtien {
+    font-weight: bold;
+    font-size: 20px;
+}

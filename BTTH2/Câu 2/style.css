@@ -1,0 +1,27 @@
+form{
+    background-color: greenyellow;
+    width: fit-content;
+}
+
+table,td,tr {
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+
+select {
+    height: 125px;
+}
+
+td.button{
+    padding-right:190px;
+}
+
+.submit {
+    border-radius: 30px;
+}
+
+form p{
+    font-weight: bold;
+    margin: auto;
+    font-size: larger;
+}
